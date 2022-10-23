@@ -1,0 +1,12 @@
+@import "~Scss/common.scss";
+
+.layout {
+  .header {
+    height: $header-height;
+    background: #fff;
+  }
+  .content {
+    padding: 15px 50px;
+    background: #fff;
+  }
+}

@@ -1,0 +1,23 @@
+.add-btn {
+  padding: 0 5px;
+  height: 26px;
+  color: green;
+}
+
+:global {
+  // 因为修改Table组件的样式，如果只能使用全局样式
+  .menus-table {
+    table {
+      tr {
+        // padding: 10px;
+        th {
+          background: none;
+        }
+        th,
+        td {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
